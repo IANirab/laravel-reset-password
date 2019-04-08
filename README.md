@@ -16,6 +16,9 @@ use these command to publish package config file (resetpassword.php) in config f
 ```php artisan vendor:publish```
 
 
+open to `.env` file on your project & also setup database & mail connection at first
+
+
 # Usage
 
 add these line on top of your controller 
@@ -32,3 +35,19 @@ echo $resetpassword->SendMail($email);</code>
 Note : 
 
 $email = Email of your users.
+
+
+# Customization
+
+go to `config/resetpassword.php`.
+then you see ,
+
+```bash
+<?php
+return [
+    'msgSuccess' => 'A New Password Has Been Send to your Email !!',
+    'msgError' => 'Email is not registered !!',
+    'address' => 'mygmail@gmail.com',
+    'name' => 'Reset Your Password :: Mysite.com'
+];
+```
