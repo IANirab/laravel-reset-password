@@ -1,0 +1,26 @@
+{
+    "name": "nirab/reset-password",
+    "description": "This is a Laravel Package , where you can send 6-digits unique password in users",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "IANirab",
+            "email": "istiaqanirab202@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "nirab\\resetpassword\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "nirab\\resetpassword\\ResetPasswordServiceProvider"
+            ]
+        }
+    }
+}
