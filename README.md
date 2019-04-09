@@ -1,4 +1,9 @@
 # laravel-reset-password
+
+[![Generic badge](https://img.shields.io/badge/Verson-v1.0-<COLOR>.svg)](https://github.com/IANirab/laravel-reset-password/releases)
+[![Build Status](https://travis-ci.org/boennemann/badges.svg?branch=master)](https://github.com/IANirab/laravel-reset-password/releases)
+[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/IANirab/laravel-reset-password/issues)
+
 This is a Laravel Package , where you can send 6-digits unique password in users. These Package Can easily validate users email if its listed or not !!
 
 
