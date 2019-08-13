@@ -1,34 +1,33 @@
 # laravel-reset-password
 
-[![Generic badge](https://img.shields.io/badge/Verson-v1.0-<COLOR>.svg)](https://github.com/IANirab/laravel-reset-password/releases)
-[![Build Status](https://travis-ci.org/boennemann/badges.svg?branch=master)](https://github.com/IANirab/laravel-reset-password/releases)
-[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/IANirab/laravel-reset-password/issues)
+![issu Status](https://img.shields.io/github/issues/IANirab/laravel-reset-password)
+![folk Status](https://img.shields.io/github/forks/IANirab/laravel-reset-password)
+![star Status](https://img.shields.io/github/stars/IANirab/laravel-reset-password)
+![license Status](https://img.shields.io/github/license/IANirab/laravel-reset-password)
+![twitter](https://img.shields.io/twitter/url/https/github.com%2FIANirab%2Flaravel-reset-password)
 
 This is a Laravel Package , where you can send 6-digits unique password in users. These Package Can easily validate users email if its listed or not !!
 
-
 # Install
 
-```composer require nirab/reset-password ```
+`composer require nirab/reset-password`
 
-add these line in 'providers' array of `config/app.php` 
+add these line in 'providers' array of `config/app.php`
 
-```nirab\resetpassword\ResetPasswordServiceProvider::class,```
+`nirab\resetpassword\ResetPasswordServiceProvider::class,`
 
 then ,
 use these command to publish package config file (resetpassword.php) in config folder and email template in views folder .
 
-```php artisan vendor:publish```
-
+`php artisan vendor:publish`
 
 open to `.env` file on your project & also setup database & mail connection at first
 
-
 # Usage
 
-add these line on top of your controller 
+add these line on top of your controller
 
-```use nirab\resetpassword\Models\UserResetPassword;```
+`use nirab\resetpassword\Models\UserResetPassword;`
 
 Then,
 
@@ -37,10 +36,9 @@ $resetpassword = new UserResetPassword();
 
 echo $resetpassword->SendMail($email);</code>
 
-Note : 
+Note :
 
-$email = Email of your users.
-
+\$email = Email of your users.
 
 # Customization
 
