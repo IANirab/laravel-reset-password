@@ -1,10 +1,8 @@
 # laravel-reset-password
 
-![issu Status](https://img.shields.io/github/issues/IANirab/laravel-reset-password)
-![folk Status](https://img.shields.io/github/forks/IANirab/laravel-reset-password)
-![star Status](https://img.shields.io/github/stars/IANirab/laravel-reset-password)
-![license Status](https://img.shields.io/github/license/IANirab/laravel-reset-password)
-![twitter](https://img.shields.io/twitter/url/https/github.com%2FIANirab%2Flaravel-reset-password)
+[![Generic badge](https://img.shields.io/badge/Verson-v1.0-<COLOR>.svg)](https://github.com/IANirab/laravel-reset-password/releases) ![issu Status](https://img.shields.io/github/issues/IANirab/laravel-reset-password)
+[![Build Status](https://travis-ci.org/boennemann/badges.svg?branch=master)](https://github.com/IANirab/laravel-reset-password/releases) ![folk Status](https://img.shields.io/github/forks/IANirab/laravel-reset-password)
+[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/IANirab/laravel-reset-password/issues)
 
 This is a Laravel Package , where you can send 6-digits unique password in users. These Package Can easily validate users email if its listed or not !!
 
