@@ -1,6 +1,6 @@
 # laravel-reset-password
 
-[![Generic badge](https://img.shields.io/badge/Verson-v1.0-<COLOR>.svg)](https://github.com/IANirab/laravel-reset-password/releases) ![issu Status](https://img.shields.io/github/issues/IANirab/laravel-reset-password)
+[![issu Status](https://img.shields.io/github/issues/IANirab/laravel-reset-password)](https://github.com/IANirab/laravel-reset-password/issues)
 [![Build Status](https://travis-ci.org/boennemann/badges.svg?branch=master)](https://github.com/IANirab/laravel-reset-password/releases) ![folk Status](https://img.shields.io/github/forks/IANirab/laravel-reset-password)
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/IANirab/laravel-reset-password/issues)
 
